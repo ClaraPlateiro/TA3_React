@@ -1,15 +1,4 @@
 import React from 'react';
-import Card from './Card';
-
-/*
-Crear un componente que permita el manejo de una lista de elementos.
-Descripción:
-- Crea un componente llamado TodoList que permita a los usuarios agregar,
-eliminar y mostrar tareas en una lista.
-- Utiliza un input para que el usuario pueda escribir el nombre de la tarea.
-- Muestra la lista de tareas en el componente.
-- Agrega un botón para eliminar cada tarea de la lista.
-*/
 
 function TodoList() {
   const [tasks, setTasks] = React.useState([]);
